@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.npy
+nlbse27_model/
+paper/*.aux
+paper/*.log
+paper/*.out
+.DS_Store
