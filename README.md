@@ -55,8 +55,6 @@ Requirements for a local run are in `requirements.txt`; a CUDA GPU is strongly r
 ## Attribution
 The dataset, task definition and baseline model come from the official NLBSE'27 repository (<https://github.com/nlbse2027/code-comment-classification>). Our additions: comments-first input, class-weighted loss, per-label thresholds, the TF-IDF baseline, the ablation, statistical tests and error analysis.
 
-## Use of generative AI
-An AI assistant (Claude, Anthropic) was used to help write and debug the notebook and to draft and edit the paper. All experiments were run by the author, every reported number was checked against the notebook outputs, and the author takes responsibility for the code and claims.
 
 ## License
 Code: MIT (see `LICENSE`). Data: MADE-WIC, CC BY 4.0, not redistributed here.
