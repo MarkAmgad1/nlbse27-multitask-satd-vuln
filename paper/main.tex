@@ -131,7 +131,6 @@ Errors concentrate in long inputs: functions longer than 512 tokens (10.6\% of t
 A multitask CodeBERT that weights its rare SATD positives beats the official baseline on mean F1 at the same size and nearly the same cost; the weighting, not the input layout or tuned thresholds, carries the gain. The main obstacles left are label provenance (SATD in comments outside the function) and long functions. Next steps are training for more epochs to close the vulnerability gap, feeding leading comments where available, and handling long functions with sliding windows. Code and notebook: \url{https://github.com/MarkAmgad1/nlbse27-multitask-satd-vuln} and \url{https://colab.research.google.com/drive/1YI0NAOlEyXxoHPA7qPMk_evr-rAmUBOU}.
 
 \section*{Statements}
-\textbf{Use of generative AI.} An AI assistant (Claude, Anthropic) was used to help write and debug the notebook and to draft and edit this paper. The author ran all experiments, checked every number against the notebook outputs, and takes responsibility for the content.
 \textbf{Data and code availability.} The dataset is public on Hugging Face (MADE-WIC, CC BY 4.0). The notebook, cached results, and paper sources are in the repository above (release \texttt{v1.0-submission}). Code reuses the official baseline's model and task definition~\cite{nlbse27}.
 
 \begin{thebibliography}{00}
